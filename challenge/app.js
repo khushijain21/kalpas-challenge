@@ -8,7 +8,7 @@ let setXOffset=0;
 let setYoffset=0;
 let active=false;
 container.addEventListener('mousedown', dragStart);
-document.addEventListener('mouseup', dragEnd);
+container.addEventListener('mouseup', dragEnd);
 container.addEventListener('mousemove',drag);
 
 function dragStart(e){
